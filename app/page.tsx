@@ -1,3 +1,4 @@
+import { BentoGrids } from "@/components/BentoGrids";
 import Hero from "@/components/Hero/Hero";
 
 export default function Home() {
@@ -6,7 +7,8 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         {/* hero-section */}
         <Hero/>
-        
+        {/* grid-section */}
+        <BentoGrids/>
       </div>
     </main>
   );

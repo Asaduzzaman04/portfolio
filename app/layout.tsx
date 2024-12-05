@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from "./Provider";
+import Nabvar from "@/components/Nabvar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
     <body
       className={`dark ${geistSans.variable} ${geistMono.variable} antialiased`}
       style={{ colorScheme: "dark" }}
@@ -37,6 +38,10 @@ export default function RootLayout({
         enableSystem={false}
         disableTransitionOnChange
       >
+        <nav className="relative w-full flex justify-center item-center z-50">
+        <Nabvar/>
+
+        </nav>
         {children}
       </ThemeProvider>
     </body>
