@@ -26,6 +26,7 @@ type Position = {
   arcAlt: number;
   color: string;
 };
+
 export type GlobeConfig = {
   pointSize?: number;
   globeColor?: string;

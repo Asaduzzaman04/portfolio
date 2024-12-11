@@ -1,24 +1,14 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
-import { ThemeProvider } from "./Provider";
-import Nabvar from "@/components/Nabvar";
+import { Inter } from "next/font/google";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+import "./globals.css";
+import { ThemeProvider } from "./provider";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Asad's portfolio",
-  description:
-    "Explore the portfolio of Asaduzzaman Asad, a skilled Front-End Web Developer specializing in React, Tailwind CSS, and modern web technologies. Discover innovative projects that combine creativity and functionality.",
+  title: "Asad's Portfolio",
+  description: "Modern & Minimal Asaduzzaman's Portfolio",
 };
 
 export default function RootLayout({
@@ -28,23 +18,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-    <body
-      className={`dark ${geistSans.variable} ${geistMono.variable} antialiased`}
-      style={{ colorScheme: "dark" }}
-    >
-      <ThemeProvider
-        attribute="class"
-        defaultTheme="dark"
-        enableSystem={false}
-        disableTransitionOnChange
-      >
-        <nav className="relative w-full flex justify-center item-center z-50">
-        <Nabvar/>
-
-        </nav>
-        {children}
-      </ThemeProvider>
-    </body>
-  </html>
+      <head>
+       
+      </head>
+      <body className={inter.className}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
+      </body>
+    </html>
   );
 }
