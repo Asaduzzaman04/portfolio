@@ -107,33 +107,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Asaduzzaman was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Asaduzzaman's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Asaduzzaman is the ideal partner.",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "Director of xyz Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Asaduzzaman was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Asaduzzaman's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Asaduzzaman is the ideal partner.",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "Director of xyz Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Asaduzzaman was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Asaduzzaman's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Asaduzzaman is the ideal partner.",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "Director of xyz Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Asaduzzaman was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Asaduzzaman's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Asaduzzaman is the ideal partner.",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "Director of xyz Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Asaduzzaman was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Asaduzzaman's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Asaduzzaman is the ideal partner.",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "Director of xyz Technologies",
   },
 ];
 
@@ -173,7 +173,7 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
+    title: "Frontend Developer Intern",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
@@ -205,14 +205,17 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    href:'https://github.com/Asaduzzaman04'
   
   },
   {
     id: 2,
     img: "/twit.svg",
+    href: 'https://x.com/Asaduzzaman055'
   },
   {
     id: 3,
     img: "/link.svg",
+    href: 'https://www.linkedin.com/in/asaduzzaman04/'
   },
 ];
